@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Platforma web pentru recenzii pentru filme</title>
+    <link rel="stylesheet" href="../static/style-sign_in.css">
+    <link rel="icon" href="../static/site-image.jpeg">
+</head>
+<body>
+    <div class="sign-in">
+        <h1 class="sign-in-text">Sign in</h1>
+        <form class="" action="{{ url_for('sign_in') }}" method="post">
+            <div>
+                <label for="e-mail" id="e-mail-text"><strong>E-mail: </strong></label>
+                <input id="e-mail" type="text" required="required" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="pass"><strong>Password: </strong></label>
+                <input id="pass" type="password" required="required" name="password">
+                <input id="sign-in-button" type="submit" value="Sign in">
+            </div>
+        </form>
+        <a href="{{ url_for('forgot_password') }}"><h4 id="forgot-pass"><em>Forgot password?</em></h4></a>
+        <a href="{{ url_for('create_account') }}"><h4 id="create-acc"><em>Create account</em></h4></a>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <p class ="error-message">{{ message }}</p>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+</body>
+</html>

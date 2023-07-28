@@ -1,0 +1,97 @@
+body {
+     background-color: #ecf0f9 !important;
+}
+
+h4, h2 {
+    text-align:center;
+
+}
+
+.movie {
+ background-color: white;
+}
+
+span{
+    color: #FEDE00;
+}
+
+.y {
+    text-align: center;
+    position: relative;
+    right: 7px;
+}
+
+.d {
+    background-color: white;
+    margin: 5px;
+
+}
+
+.a {
+    text-align: center
+}
+
+h6 {
+    text-align:right;
+}
+
+.rplg-reviews {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  /* Your container needs a fixed height, and it
+   * needs to be taller than your tallest column. */
+  height: 5000px;
+}
+
+.rplg-review {
+  width: 32%;
+  margin-bottom: 2%;
+}
+
+.rplg-review:nth-child(3n+1) { order: 1; }
+.rplg-review:nth-child(3n+2) { order: 2; }
+.rplg-review:nth-child(3n) { order: 3; }
+
+.rplg-reviews::before,
+.rplg-reviews::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+
+.box {
+  background: #fff;
+  margin: 10px !important;
+  padding: 20px !important;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.box .info .name {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.box .info .job {
+  font-size: 16px;
+  font-weight: 500;
+  color: #17a2b8;
+}
+
+.content .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}

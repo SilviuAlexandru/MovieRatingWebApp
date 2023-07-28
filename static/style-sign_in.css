@@ -1,0 +1,87 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #333 !important;
+}
+
+form {
+    text-align: center;
+}
+
+#forgot-pass {
+    position: absolute;
+    right: 200px;
+    bottom: 10px;
+    width: 40%
+}
+
+#create-acc {
+    position: absolute;
+    right: 230px;
+    bottom: 30px;
+    width: 30%
+}
+
+#e-mail-text {
+    margin-right: 19.5px;
+}
+
+#sign-in-button {
+    position: relative;
+    top: 17px;
+    left: 98px;
+}
+
+.sign-in {
+    background: #EEE9E9;
+    border-color: grey;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+}
+
+.sign-in-text {
+    text-align: center;
+    font-family: Garamond;
+}
+
+.password {
+    position: relative;
+    right: 12px;
+    font-weight: bold;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.button {
+    position: relative;
+    left: 105px;
+}
+
+.wrong-text {
+    color: red;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    left: 60px;
+
+}
+
+.error-message {
+    color: red;
+    position: relative;
+    top: 25px;
+}
