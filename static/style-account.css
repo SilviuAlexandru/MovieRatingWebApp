@@ -1,0 +1,56 @@
+body {
+    background-color: #333 !important;
+}
+
+form {
+    text-align: center;
+}
+
+#e-mail-text {
+    margin-right: 19.5px;
+}
+
+#create-account-button {
+    position: relative;
+    top: 17px;
+    left: 98px;
+}
+
+#repeat-password-text {
+    position: relative;
+    right: 25px;
+}
+
+#repeat-pass-box {
+    position: relative;
+    right: 25px;
+}
+
+.create-account {
+    background: #EEE9E9;
+
+    border-color: grey;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 310px;
+    height: 230px;
+    margin: 0 auto;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -230px;
+    margin-left: -155px;
+}
+
+.create-account-text {
+    text-align: center;
+    font-family: Garamond;
+}
+
+.warning-message {
+    color: red;
+    position: relative;
+    top: 15px;
+}

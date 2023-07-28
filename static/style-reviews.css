@@ -1,0 +1,37 @@
+body {
+     background-color: #ecf0f9 !important;
+}
+
+h4, h2 {
+    text-align:center;
+
+}
+
+.movie {
+ background-color: white;
+}
+
+span{
+    color: #FEDE00;
+}
+
+.y {
+    text-align: center;
+    position: relative;
+    right: 7px;
+}
+
+.d {
+    background-color: white;
+    margin: 5px;
+
+}
+
+.a {
+    text-align: center
+}
+
+h6 {
+    text-align:right;
+
+}
