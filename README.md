@@ -6,7 +6,7 @@ The web app contains information and statistics about movies. The application is
 ![image](https://github.com/SilviuAlexandru/MovieRatingWebApp/assets/119167365/7565094b-dba4-41cb-a0c6-06309394d866)
 ![image](https://github.com/SilviuAlexandru/MovieRatingWebApp/assets/119167365/1ccb7fa3-d446-46a3-9c20-8e736a8a4d96)
 ![image](https://github.com/SilviuAlexandru/MovieRatingWebApp/assets/119167365/bac40c2d-3b42-4b63-8516-9683490c72f0)           ![image] 
-           (https://github.com/SilviuAlexandru/MovieRatingWebApp/assets/119167365/8821062c-583c-4e44-9a9e-5378cecae388)
+(https://github.com/SilviuAlexandru/MovieRatingWebApp/assets/119167365/8821062c-583c-4e44-9a9e-5378cecae388)
 
 
 
