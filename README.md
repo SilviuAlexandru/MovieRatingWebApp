@@ -1,1 +1,1 @@
-# MovieRatingWebApp
+# Movie Rating Web Application
