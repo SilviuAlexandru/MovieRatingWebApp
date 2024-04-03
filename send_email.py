@@ -1,7 +1,7 @@
 import smtplib
 
-MY_EMAIL = "silviupython99@gmail.com"
-APP_PASSWORD = "lkrdksqiunoonlpo"
+MY_EMAIL = "my-email"
+APP_PASSWORD = "my-password"
 
 
 class SendEmail:
