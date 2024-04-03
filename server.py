@@ -14,7 +14,7 @@ dotenv_path = Path("flask.env")
 load_dotenv(dotenv_path=dotenv_path)
 
 MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
-MOVIE_DB_API_KEY = "d5023044e77f02082b7f229b7a78a54f"
+MOVIE_DB_API_KEY = "my-apy-key"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
 app = Flask(__name__)
